@@ -1,0 +1,16 @@
+{
+  "name": "cse340-practice-platt",
+  "dependencies": {
+    "ejs": "^5.0.2",
+    "express": "^5.2.1"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --env-file=.env server.js",
+    "start": "node --env-file=.env server.js",
+    "kill": "kill-port 3000"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
